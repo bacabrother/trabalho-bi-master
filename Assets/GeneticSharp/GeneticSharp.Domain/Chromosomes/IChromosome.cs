@@ -83,6 +83,8 @@ namespace GeneticSharp
         /// </summary>
         /// <returns>The chromosome clone.</returns>
         IChromosome Clone();
+
+        void MarkGeneration(int generation, float time);
         #endregion
     }
 }

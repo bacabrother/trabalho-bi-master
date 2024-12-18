@@ -74,6 +74,8 @@
     <Compile Include="Assets\Scripts\Input\InputCrono.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Randomizations\BasicRandomization.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Crossovers\CrossoverException.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs" />
+    <Compile Include="Assets\Scripts\Base\MenuInputField.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Reinsertions\UniformReinsertion.cs" />
     <Compile Include="Assets\Scripts\Otimizacao\CromossomoR.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Chromosomes\IChromosome.cs" />
@@ -100,11 +102,13 @@
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Populations\Population.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\UniformMutation.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\InsertionMutation.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Terminations\TerminationBase.cs" />
     <Compile Include="Assets\Scripts\Input\InputProjeto.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Crossovers\UniformCrossover.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\DisplacementMutation.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Randomizations\IRandomization.cs" />
+    <Compile Include="Assets\Scripts\Base\MenuDropdown.cs" />
     <Compile Include="Assets\Excel4Unity\Scripts\Excel4Unity\ExcelTableCell.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Chromosomes\FloatingPointChromosome.cs" />
     <Compile Include="Assets\Scripts\Runtime\LogicalRelation.cs" />
@@ -113,6 +117,7 @@
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Crossovers\AlternatingPositionCrossover.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Terminations\AndTermination.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Populations\PopulationService.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Chromosomes\Gene.cs" />
     <Compile Include="Assets\Scripts\Utils\IExcelImportExport.cs" />
     <Compile Include="Assets\Excel4Unity\Scripts\Excel4Unity\ExcelHelper.cs" />
@@ -131,6 +136,7 @@
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Reinsertions\ReinsertionService.cs" />
     <Compile Include="Assets\Scripts\Otimizacao\MutationR.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Selections\EliteSelection.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Crossovers\CrossoverBase.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Populations\IGenerationStrategy.cs" />
     <Compile Include="Assets\Scripts\Input\InputPoco.cs" />
@@ -138,9 +144,11 @@
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\TworsMutation.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Reinsertions\ReinsertionBase.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Crossovers\PartiallyMappedCrossover.cs" />
+    <Compile Include="Assets\Scripts\Core\AGManager.cs" />
     <Compile Include="Assets\Scripts\Input\InputPredecessor.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Reinsertions\IReinsertion.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Selections\StochasticUniversalSamplingSelection.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Selections\TournamentSelection.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Infrastructure\Commons\ExceptionHelper.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Populations\Generation.cs" />
@@ -160,7 +168,6 @@
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\MutationException.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Chromosomes\IChromosomeOperator.cs" />
     <Compile Include="Assets\Scripts\Runtime\Atividade.cs" />
-    <Compile Include="Assets\Scripts\Core\IAManager.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Fitnesses\FuncFitness.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Crossovers\ThreeParentCrossover.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Infrastructure\Collections\EnumerableExtensions.cs" />
@@ -169,9 +176,14 @@
     <Compile Include="Assets\Scripts\Otimizacao\FitnessR.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Populations\PerformanceGenerationStrategy.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Infrastructure\Reflection\TypeHelper.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Terminations\GenerationNumberTermination.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\MutationService.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\SequenceMutationBase.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\BasicSample.cs" />
     <Compile Include="Assets\Scripts\Otimizacao\CrossoverR.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Infrastructure\Threading\ITaskExecutor.cs" />
     <Compile Include="Assets\Scripts\Core\InputDados.cs" />
@@ -181,6 +193,8 @@
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Infrastructure\Threading\TplTaskExecutor.cs" />
     <Compile Include="Assets\Scripts\Input\InputSonda.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Crossovers\OrderedCrossover.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\Mutations\PartialShuffleMutation.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Domain\IGeneticAlgorithm.cs" />
     <Compile Include="Assets\GeneticSharp\GeneticSharp.Infrastructure\Threading\TaskExecutorBase.cs" />
@@ -206,11 +220,14 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Excel4Unity\Plugins\I18N.MidEast.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Excel4Unity\Scripts\EPPlus\EPPlus.XML" />
+    <None Include="Assets\Excel4Unity\Plugins\I18N.Other.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll" />
     <None Include="Assets\Excel4Unity\Scripts\EPPlus\EPPlus.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Excel4Unity\Scripts\EPPlus\readme.txt" />
@@ -218,17 +235,22 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Excel4Unity\Plugins\I18N.Rare.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Excel4Unity\Plugins\LitJson.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Excel4Unity\Plugins\I18N.West.dll" />
+    <None Include="Assets\Excel4Unity\Plugins\I18N.CJK.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Excel4Unity\Plugins\I18N.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -647,6 +669,10 @@
       <HintPath>Assets\Plugins\MathNet.Numerics.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="EPPlus">
       <HintPath>Assets\Excel4Unity\Scripts\EPPlus\EPPlus.dll</HintPath>
       <Private>False</Private>
@@ -660,7 +686,31 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Windows.Forms">
-      <HintPath>Assets\Plugins\System.Windows.Forms.dll</HintPath>
+      <HintPath>Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="I18N.CJK">
+      <HintPath>Assets\Excel4Unity\Plugins\I18N.CJK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="I18N.Other">
+      <HintPath>Assets\Excel4Unity\Plugins\I18N.Other.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="I18N.MidEast">
+      <HintPath>Assets\Excel4Unity\Plugins\I18N.MidEast.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>Assets\Excel4Unity\Plugins\I18N.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="I18N.Rare">
+      <HintPath>Assets\Excel4Unity\Plugins\I18N.Rare.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>Assets\Excel4Unity\Plugins\I18N.West.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

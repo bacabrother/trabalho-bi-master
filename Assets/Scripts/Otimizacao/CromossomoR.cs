@@ -12,7 +12,6 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
     private Gene[] gene_atividades;
     private Gene[] gene_sondas;
     private float mutationCounter;
-    private float tempoAteObter; //TODO
     private int m_length;
     public int sumBadPosition;
 
@@ -39,23 +38,23 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
     }
     public IChromosome CreateNew()
     {
-        if (IAManager.log) Debug.Log("Create New");
+        if (AGManager.log) Debug.Log("Create New");
         CromossomoR newCromo = new CromossomoR(Manager.inputs.arrayAtividades.Length);
         return newCromo;
     }
     protected virtual void CreateGenes()
     {
-        if (IAManager.log) Debug.Log("Create Genes");
+        if (AGManager.log) Debug.Log("Create Genes");
         (gene_atividades, gene_sondas) = cronograma.ConvertToGene();
     }
     public Gene GenerateGene(int geneIndex)
     {
-        if (IAManager.log) Debug.Log("Generate Gene");
+        if (AGManager.log) Debug.Log("Generate Gene");
         return new Gene(geneIndex);
     }
     public void ReplaceGene(int index, Gene gene)
     {
-        if (IAManager.log) Debug.Log("Replace Gene");
+        if (AGManager.log) Debug.Log("Replace Gene");
         if (index < 0 || index >= m_length)
         {
             throw new ArgumentOutOfRangeException("index", "There is no Gene on index {0} to be replaced.".With(index));
@@ -66,7 +65,7 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
     }
     public void ReplaceGenes(int startIndex, Gene[] genes)
     {
-        if (IAManager.log) Debug.Log("Replace Genes");
+        if (AGManager.log) Debug.Log("Replace Genes");
         ExceptionHelper.ThrowIfNull("genes", genes);
         if (genes.Length != 0)
         {
@@ -88,25 +87,29 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
     }
     public Gene GetGene(int index)
     {
-        if (IAManager.log) Debug.Log("Get Gene");
+        if (AGManager.log) Debug.Log("Get Gene");
         return gene_atividades[index];
     }
     public Gene[] GetGenes()
     {
-        if (IAManager.log) Debug.Log("Get Genes");
+        if (AGManager.log) Debug.Log("Get Genes");
         return gene_atividades;
     }
     public Gene[] GetGenesSonda()
     {
-        if (IAManager.log) Debug.Log("Get Genes");
+        if (AGManager.log) Debug.Log("Get Genes");
         return gene_sondas;
+    }
+    void IChromosome.MarkGeneration(int generation, float time)
+    {
+        cronograma.SetGeneration(generation, Mathf.RoundToInt(mutationCounter), time);
     }
     #endregion
 
     #region Utils
-    public void Log()
+    public override string ToString()
     {
-        Debug.Log($"Mutations: {mutationCounter} {cronograma.ToString()}");
+        return cronograma.ToString();
     }
     public bool CanStop()
     {
@@ -135,17 +138,18 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
     }
     public virtual IChromosome Clone()
     {
-        if (IAManager.log) Debug.Log("Clone");
+        if (AGManager.log) Debug.Log("Clone");
         CromossomoR cromossomoR = new CromossomoR(Manager.inputs.arrayAtividades.Length, true);
         cromossomoR.SetFitness(cromossomoR.cronograma.FromGene(gene_atividades, gene_sondas));
         cromossomoR.CreateGenes();
         cromossomoR.SetBadPosition();
         cromossomoR.mutationCounter = mutationCounter;
+        cromossomoR.cronograma.SetGeneration(cronograma.generationCreated, cronograma.mutations, cronograma.timeToCreate);
         return cromossomoR;
     }
     public int CompareTo(IChromosome other)
     {
-        if (IAManager.log) Debug.Log("Compare To");
+        if (AGManager.log) Debug.Log("Compare To");
         if (other == null)
         {
             return -1;
@@ -166,7 +170,7 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
     }
     public override bool Equals(object obj)
     {
-        if (IAManager.log) Debug.Log("Equals");
+        if (AGManager.log) Debug.Log("Equals");
         if (!(obj is IChromosome other))
         {
             return false;
@@ -175,12 +179,12 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
     }
     public override int GetHashCode()
     {
-        if (IAManager.log) Debug.Log("Hascode");
+        if (AGManager.log) Debug.Log("Hascode");
         return Fitness.GetHashCode();
     }
     public void Resize(int newLength)
     {
-        if (IAManager.log) Debug.Log("Resize");
+        if (AGManager.log) Debug.Log("Resize");
         ValidateLength(newLength);
         Array.Resize(ref gene_atividades, newLength);
         m_length = newLength;
@@ -192,6 +196,9 @@ public class CromossomoR : IChromosome, IComparable<IChromosome>
             throw new ArgumentException("The minimum length for a chromosome is 2 genes.", "length");
         }
     }
+
+
+
     public static bool operator ==(CromossomoR first, CromossomoR second)
     {
         if ((object)first == second)

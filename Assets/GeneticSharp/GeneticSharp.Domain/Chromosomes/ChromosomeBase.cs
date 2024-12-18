@@ -324,6 +324,11 @@ namespace GeneticSharp
                 throw new ArgumentException("The minimum length for a chromosome is 2 genes.", nameof(length));
             }
         }
-        #endregion      
+
+        void IChromosome.MarkGeneration(int generation, float time)
+        {
+            throw new NotImplementedException();
+        }
+        #endregion
     }
 }

@@ -9,6 +9,10 @@ public class Cronograma : BaseObject, IExcelExportImport
     public Sonda[] sondas;
     public Dictionary<string, Atividade> atividades;
 
+    public int mutations;
+    public int generationCreated;
+    public float timeToCreate;
+
     public long custo;
     public long baseCost; //sem multas
     public long multasPredecessor;
@@ -343,7 +347,7 @@ public class Cronograma : BaseObject, IExcelExportImport
     }
     public override string ToString()
     {
-        return $"Custo: {custo} || PerfQuebrada: {perfuracoesQuebradas} || !PredecessorObrigatorio: {predecessorObrigatorioDescumprido} || FolgaDescumprida: {folgaDescumprida} || SondasExtra: {sondasDiasExtra} || TotalExtra: {totalDiasExtra}";
+        return $"Custo: {custo} | Mutações: {mutations} | Geracoes: {generationCreated} | Tempo: {timeToCreate} || PerfQuebrada: {perfuracoesQuebradas} | !PredecessorObrigatorio: {predecessorObrigatorioDescumprido} | FolgaDescumprida: {folgaDescumprida} | SondasExtra: {sondasDiasExtra} | TotalExtra: {totalDiasExtra}";
     }
     #endregion
 
@@ -407,9 +411,15 @@ public class Cronograma : BaseObject, IExcelExportImport
     #endregion
 
     #region Otimizar
+    public void SetGeneration(int generation, int mutations, float time)
+    {
+        this.generationCreated = generation;
+        this.mutations = mutations;
+        this.timeToCreate = time;
+    }
     public long CalcularCusto()
     {
-        if (IAManager.log) Debug.Log("Calculando Custo");
+        if (AGManager.log) Debug.Log("Calculando Custo");
         FinishCreateCronograma();
         return custo;
     }
@@ -458,7 +468,7 @@ public class Cronograma : BaseObject, IExcelExportImport
     #region Import/Export Excel
     public string[] GetHeaderColumnNames()
     {
-        return new string[12] {
+        return new string[15] {
             "Id",
             "Duracao",
             "Custo",
@@ -470,7 +480,10 @@ public class Cronograma : BaseObject, IExcelExportImport
             "Perfuracoes Quebradas",
             "Folgas",
             "SondasDiasExtra",
-            "TotalDiasExtra"
+            "TotalDiasExtra",
+            "Mutacoes",
+            "Geracoes",
+            "Tempo"
      };
     }
     public string GetFieldValue(string fieldName)
@@ -489,6 +502,9 @@ public class Cronograma : BaseObject, IExcelExportImport
             case "Folgas": return folgaDescumprida.ToString();
             case "SondasDiasExtra": return sondasDiasExtra.ToString();
             case "TotalDiasExtra": return totalDiasExtra.ToString();
+            case "Mutacoes": return mutations.ToString();
+            case "Geracoes": return generationCreated.ToString();
+            case "Tempo": return timeToCreate.ToString();
         }
         return "";
     }

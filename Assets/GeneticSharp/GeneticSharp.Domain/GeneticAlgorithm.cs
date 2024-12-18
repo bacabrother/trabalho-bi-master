@@ -351,7 +351,7 @@ namespace GeneticSharp
             var offspring = Cross(parents); //offspring traz apenas os genes com crossover
             offspring = UnionToMutate(offspring, parents, Premissas.Instance.keepBestFromLastGeneration); //como mutate não cria novo, para manter precisamos clonar
             Mutate(offspring);
-            EvaluateFitness();
+            MarkGenerationInChromosome(offspring);
             var newGenerationChromosomes = Reinsert(offspring, parents);
             Population.CreateNewGeneration(newGenerationChromosomes);
             return EndCurrentGeneration();
@@ -439,6 +439,13 @@ namespace GeneticSharp
             }
         }
 
+        private void MarkGenerationInChromosome(IList<IChromosome> offspring)
+        {
+            foreach (var item in offspring)
+            {
+                item.MarkGeneration(GenerationsNumber, (float)TimeEvolving.TotalSeconds);
+            }
+        }
         /// <summary>
         /// Selects the parents.
         /// </summary>

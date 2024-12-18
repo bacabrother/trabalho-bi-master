@@ -3,16 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text;
-using System.Windows.Forms.VisualStyles;
-using LitJson;
-using OfficeOpenXml;
 using UnityEditor;
 using UnityEngine;
 
 public class ExcelUtils
 {
+    #region Init 
+    public static string folderPath => $"{Application.dataPath.Replace("/Assets", "")}/Inputs/";
+    public static string Path(string file) => $"{IOManager.pathOutput}/{file}"; //$"{Application.dataPath}/Inputs/Cronogramas/{file}";
+    #endregion
+
     #region Validação
     public static string ValidarExcel(string path)
     {
@@ -28,15 +29,17 @@ public class ExcelUtils
         for (int i = 0; i < xls.Tables.Count; i++)
         {
             if (!hasSondas) errorText.Append(CheckExcel(xls.Tables[i], "Sondas", out hasSondas, new InputSonda()));
-            if (!hasProjetos) errorText.Append(CheckExcel(xls.Tables[i], "Projetos", out hasProjetos, new InputProjeto()));
+            if (!hasPoco) errorText.Append(CheckExcel(xls.Tables[i], "Poços", out hasPoco, new InputPoco()));
+            if (!hasPredecessor) errorText.Append(CheckExcel(xls.Tables[i], "Predecessor", out hasPredecessor, new InputPredecessor()));
+            //if (!hasProjetos) errorText.Append(CheckExcel(xls.Tables[i], "Projetos", out hasProjetos, new InputProjeto()));
         }
 
         //if (!hasPremissas) errorText.Append("Sheet não encontrado: ").AppendLine("PremissasCrono");
         if (!hasSondas) errorText.Append("Sheet não encontrado: ").AppendLine("Sondas");
-        if (!hasProjetos) errorText.Append("Sheet não encontrado: ").AppendLine("Projetos");
-        //if (!hasPoco) errorText.Append("Sheet não encontrado: ").AppendLine("Pocos");
+        //if (!hasProjetos) errorText.Append("Sheet não encontrado: ").AppendLine("Projetos");
+        if (!hasPoco) errorText.Append("Sheet não encontrado: ").AppendLine("Pocos");
         //if (!hasIntervencoes) errorText.Append("Sheet não encontrado: ").AppendLine("Eventos");
-        //if (!hasPredecessor) errorText.Append("Sheet não encontrado: ").AppendLine("Predecessor");
+        if (!hasPredecessor) errorText.Append("Sheet não encontrado: ").AppendLine("Predecessor");
         //if (!hasEntrega) errorText.Append("Sheet não encontrado: ").AppendLine("EntregaANM");
         //if (!hasTags) errorText.Append("Sheet não encontrado: ").AppendLine("TagsANM");
         return errorText.ToString();
@@ -60,12 +63,7 @@ public class ExcelUtils
         }
         return text.ToString();
     }
-    #endregion
-
-    #region Init 
-    public static string folderPath => $"{Application.dataPath.Replace("/Assets", "")}/Inputs/";
-    public static string Path(string file) => $"{Application.dataPath}/Inputs/Cronogramas/{file}";
-    #endregion
+    #endregion 
 
     #region Generic
     public static string GetNextSaveName(string baseName, string extension = ".xlsx")

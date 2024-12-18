@@ -35,7 +35,7 @@ public class Premissas : Singleton<Premissas>
     public int badPositionAtividadeExtraSonda = 50;
 
     [HorizontalLine(1, EColor.Red)]
-    public long MultaAbsolutaPadraoDiaria = 250000;
+    public int MultaAbsolutaPadraoDiaria = 250000;
 
     #region Predecessor
     [Foldout("Predecessor")] public int XMultaPredecessorObrigatorio = 999;
@@ -52,7 +52,7 @@ public class Premissas : Singleton<Premissas>
     #endregion
 
     #region Desmobilização
-    [Foldout("Desmobilização")] public float XMultaDiariaExtra = 15; //15 diárias
+    [Foldout("Desmobilização")] public int XMultaDiariaExtra = 15; //15 diárias
     [Foldout("Desmobilização")] public float XDiariaPorDiaExtra = 0.01f; //multiplica pelo número de dias para obter a diária final
     #endregion
 

@@ -4,13 +4,32 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using GeneticSharp;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public static class Utils
 {
+    public static IEnumerable<FieldInfo> GetAllFields(Type type)
+    {
+        return type.GetNestedTypes().SelectMany(GetAllFields)
+                   .Concat(type.GetFields());
+    }
+    public static FieldInfo GetField(Type type, string fieldName)
+    {
+        var fields = GetAllFields(type);
+        foreach (var field in fields)
+        {
+            if (field.Name == fieldName)
+            {
+                return field;
+            }
+        }
+        return null;
+    }
     public static void LogDictionary<T>(this Dictionary<string, T> obj, string header) where T : class
     {
         StringBuilder sb = new StringBuilder();
@@ -627,6 +646,18 @@ public static class Utils
     #endregion
 
     #region TextEditor
+    public static string ParseSpaceWhenUpper(string text)
+    {
+        MatchCollection matches = new Regex(@"([A-Z][a-z]*)").Matches(text);
+        StringBuilder newString = new StringBuilder();
+        for (int i = 0; i < matches.Count; i++)
+        {
+            newString.Append(matches[i].Value);
+            if (i < matches.Count - 1)
+                newString.Append(" ");
+        }
+        return newString.ToString();
+    }
     public static string UnidadePonto(long value)
     {
         var nfi = new NumberFormatInfo { NumberDecimalSeparator = ",", NumberGroupSeparator = "." };
