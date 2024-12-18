@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f6038004fdcfe714ca8f51682ac7d54d
+timeCreated: 1482082567
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Barthowheel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 22d70689880bb3944a49e6ee7fcd1613, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

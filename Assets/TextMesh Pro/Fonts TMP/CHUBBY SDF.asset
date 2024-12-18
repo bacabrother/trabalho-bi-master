@@ -1,0 +1,497 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!28 &-8035728087000471575
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CHUBBY SDF Atlas
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 64
+  m_Height: 64
+  m_CompleteImageSize: 4096
+  m_MipsStripped: 0
+  m_TextureFormat: 1
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 4096
+  _typelessdata: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001b2e2919080000000000000000000000000000000000000122373e3932150000000000000000000000001a3c47412b000000000000000000000000000000005798ada898887665543f190000000000000000000000195681a1b6beb9b194703c0000000000000000005197bcc6c1a9720000000000000000000000000000219dfffffffffff6e5d3bb98641400000000000000005696caffffffffffffffeeab5a000000000000001694ffffffffffdf63000000000000000000000000003bbbffffffffffffffffffffe1914100000000000072c2ffffffffffffffffffffffb24c00000000000027a7ffffffffffff890a0000000000000000000000003cbbffffffffffffffffffffffffa142000000006dd2ffffffffffffffffffffffffff8c0e000000000021a0ffffffffffff971800000000000000000000000032b1ffffffffffffffffffffffffff9317000038b1ffffffffffffffffffffffffffffbe4800000000000f8fffffffffffff94140000000000000000000000001d9cffffffffffffffffffffffffffe366000062e1ffffffffffffcbafffffffffffffe86900000000000077f6ffffffffff82020000000000000000000000000078f7ffffffffffffffffffffffffff9a1c0078f8ffffffffffbe623084fffffffffffd7d00000000000059d8ffffffffe46500000000000000000000000000003993ffffffffffffded8fcffffffffc448007cfbffffffffcc6a000069e8ffffffffff810200000000003cb8ffffffffc94a0000000000000000000000000000003eb1ffffffff9560587dc8ffffffe4650059c5ffffffc97400004da8fffffffffff4740000000000001c9bffffffffb7370000000000000000000000000000000d8dffffffb33d00000584fffffff979000066a5bda360000866b2ffffffffffffd255000000000000007dfdffffffab2b0000000000000000000000000000000079f9ffff901100000064e3ffffff88000000273d25003b86d1ffffffffffffff9417000000000000005fdeffffffa7270000000000000000000000000000000073f2fff778000000005fdeffffff8e0000000000005ba5ffffffffffffffffaa49000000000000000046c3ffffffa626000000000000000000000000000000006feeffee6f0000000066e6ffffff90000000000070c3ffffffffffffffffa34c00000000000000000030afffffffab2b0000000000000000000000000000000072f1ffe6660000000076f5ffffff88000000007aecffffffffffffffcf8a41000000000000000000001a99ffffffb2330000000000000000000000000000000180ffffde5e0000000c8cfffffffc7c00000068ceffffffffffffdd9a5e0c00110000000000000000000484ffffffc0430000000000000000000000000000001997ffffdc5c00000029a7ffffffe768000037acfffffffffff89c601c003d7f916a00000000000000000078f8ffffdf610000000000000000000000000000005ac8ffffe76800000055d2ffffffcd4f000069e8fffffffff87a2000001993feffe772000000000000000282ffffffff951b0000000000000000000000000066b4ffffffff8a0b001490ffffffffab2d000686ffffffffffbb3e00000075f1ffffffb13800003b4b453e5ab2ffffffffff987b796e4c000000000000000040b7ffffffffffce7e618effffffffff8101001897ffffffffffe2681d2c73c6ffffffffd1510064b8cbc4bdd5fffffffffffffffbf9edbc5d000000000000005fdefffffffffffffde0ffffffffffc15100000383ffffffffffffc59caaf0ffffffffffcd4e0091ffffffffffffffffffffffffffffffff97190000000000006cebffffffffffffffffffffffffff820300000056c6ffffffffffffffffffffffffffffab2e00a7ffffffffffffffffffffffffffffffffbb350000000000006cecffffffffffffffffffffffff9b3800000000007ef3ffffffffffffffffffffffffee710000a5ffffffffffffffffffffffffffffffffca4a0000000000005bdafffffffffffffffffffff295400000000000000076bfffffffffffffffffffffde8001000084ffffffffffffffffffffffffffffffffac3e00000000000034a5ffffffffffffffffe9b0741a000000000000000000518dbfecfffffffff2d09e630100000048a7ecfbefddcbbfb5b0aeaeb5bdc4be9a580000000000000000529ac0d2d7d3c5b0926b3e0000000000000000000000000f4a6d869293897352210000000000003d6d7c705d4b4036312e2e363e453f1d000000000000000000001d45525753463113000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000325353f46494a49443b2c060000000000000b2c3a42423b18000000000000000000000000000000003d4a2d00000000203f370000000000607570560000003a82a4b5bfc5c9cac8c3bbab853c00000000538aabb9c2c2bb965300000000000000000000000000006bb8c9a95a00004b9bbdb67b0000007eddf4f0c97c00007ffeffffffffffffffffffffff8102000064bdffffffffffffffb65700000000000000000000000035b3ffffff8f100077f7ffffd85b0037b6ffffffffbb3b009dffffffffffffffffffffffff9e1f0044b1ffffffffffffffffffa53a000000000000000000000055d2ffffff9b1c007af9fffff778003ebdffffffffc24300a3ffffffffffffffffffffffff9d1e0073f2fffffffffffffffffff475000000000000000000000057d7ffffff97180067e6ffffff850038b7ffffffffbb3c00a6ffffffffffffffffffffffff86070093ffffffffb496a7ffffffffa527000000000000000000004eccffffff8c0c0054d3ffffff89002aa9ffffffffb23300a4ffffffffffe6b2afc2e3ecba540000a0ffffffc553172b92ffffffc3430000000000000000000037bcfffffb7c000042c1ffffff87001d9cffffffffaa2a009fffffffffcc6c332f48646c4e000000a1ffffffa82900006feeffffd356000000000000000000002faeffffea6b000040c0ffffff84001494ffffffffa1220091ffffffffb1310000000000000000009affffffa728000073f2ffffd55500000000000000000000209fffffdf60000048c7fffffa7a000c8cffffffff99190074f3ffffffca570000000000000000008effffffbe41001d9affffffd255000000000000000000001595ffffe86b00187cfaffffec6d000888ffffffff92120049beffffffffa95500000000000000007dfcffffff915e81ffffffffbd37000000000000000000001190ffffffa57796faffffffd455000484ffffffff8c0d000180ffffffffffbc7a3a00000000000063e2ffffffffdeffffffffffa527000000000000000000000c8bfffffffff7ffffffffffad36000483ffffffff88090000369afffffffffff9a76000000000003bb1fffffffffffffffffffa7b00000000000000000000000888fffffffffffffffffff27500000484ffffffff850600000048a5ffffffffffffc36600000000006ee9ffffffffffffffffaa3f00000000000000000000000887fffffffffffffffec6800000000383ffffffff8203000000004192f4ffffffffffb648000000000074c0fffffffffff7a7550000000000000000000000000787fffffffff7b3997f54000000000281ffffffff800000000000001777c3ffffffffff860700000000005285a8bab9a3783d000000000000000000000000000787fffffff779361a000000000000007ffffffffe7e000000002044110061bcffffffffb33d00000000000006293a39240000000000000000000000000000000988ffffffa5280000000000000000007efefffffd7e000000639ebf8c110074f3ffffffd85900000000000000000000000000000000000000000000000000000a89ffffff94140000000000000000007dfcfffffe7f000070ceffffc74d005ddbffffffed6d00000000000024383c2a050000000000000000000000000000000c8cffffff96160000000000000000007dfcffffff810100b4ffffffff9a70a1ffffffffee6f000000003d7ca3b8bba9845000000000000000000000000000001190ffffffa0200000000000000000007dfdffffff860600a5ffffffffffefffffffffffdf6000000045a5fbffffffffffbd70000000000000000000000000001796ffffffaa2a0000000000000000007efeffffff8c0d006fedffffffffffffffffffffb1380000128fffffffffffffffffc55300000000000000000000000020a0ffffffb93a00000000000000000282ffffffff9717003299ffffffffffffffffffe96d0000004dc3ffffffffffffffffef6f0000000000000000000000002aa9ffffffcd4e00000000000000000686ffffffffa323000049a6ffffffffffffffe47c000000006cebffffffffd7f2ffffe76700000000000000000000000031b0ffffffe06100000000000000000e8dffffffffb4350000003c84b9dae6e5d3a769000000000084ffffffff8a5773aff3b33d00000000000000000000000031b0ffffffef6f00000000000000001999ffffffffc5460000000005405b6765542a00000000000090ffffffb73e000042745b0000000000000000000000000024a3fffffff57500000000000000001e9dffffffffcc4d000000000000000000000000000000000099ffffffa5260000000000000000000000000000000000000886ffffffcd5c00000000000000000075dafdfffda935000000000000000000000000000000000093ffffffb9480001445300000000000000000000000000000040849e976b00000000000000000000005e7e8a7d4b00000000000000000000000000000000000088ffffffffa67581b5d27f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006decfffffffff4ffffffbe430000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045bbffffffffffffffffce50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000073f0ffffffffffffffb43400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000077c5ffffffffffca7100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005a93b9c2b08d5b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000143c43310e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &-1010371717889305637
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CHUBBY SDF Material
+  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: -8035728087000471575}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _ColorMask: 15
+    - _Diffuse: 0.5
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 1
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0
+    - _ScaleRatioB: 0
+    - _ScaleRatioC: 0
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _Sharpness: 0
+    - _SpecularPower: 2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 64
+    - _TextureWidth: 64
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_BuildTextureStacks: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: CHUBBY SDF
+  m_EditorClassIdentifier: 
+  hashCode: 242595638
+  material: {fileID: -1010371717889305637}
+  materialHashCode: 1331571286
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: 635e9a1bc80706f428edec027bc155b5
+  m_SourceFontFile_EditorRef: {fileID: 0}
+  m_SourceFontFile: {fileID: 0}
+  m_AtlasPopulationMode: 0
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: Chubby Cheeks
+    m_StyleName: Regular
+    m_PointSize: 36
+    m_Scale: 1
+    m_LineHeight: 44.578125
+    m_AscentLine: 32.0625
+    m_CapLine: 27
+    m_MeanLine: 17
+    m_Baseline: 0
+    m_DescentLine: -12.515625
+    m_SuperscriptOffset: 32.0625
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -12.515625
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: 0
+    m_UnderlineThickness: 0
+    m_StrikethroughOffset: 6.8
+    m_StrikethroughThickness: 0
+    m_TabWidth: 11
+  m_GlyphTable:
+  - m_Index: 1
+    m_Metrics:
+      m_Width: 0
+      m_Height: 0
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 11.109375
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 0
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 5
+    m_Metrics:
+      m_Width: 17.4375
+      m_Height: 25.734375
+      m_HorizontalBearingX: 0.5625
+      m_HorizontalBearingY: 25.453125
+      m_HorizontalAdvance: 18.84375
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 1
+      m_Width: 18
+      m_Height: 27
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 20
+    m_Metrics:
+      m_Width: 18.140625
+      m_Height: 24.890625
+      m_HorizontalBearingX: 0.421875
+      m_HorizontalBearingY: 24.75
+      m_HorizontalAdvance: 18.984375
+    m_GlyphRect:
+      m_X: 20
+      m_Y: 1
+      m_Width: 19
+      m_Height: 26
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 21
+    m_Metrics:
+      m_Width: 18.265625
+      m_Height: 24.828125
+      m_HorizontalBearingX: 0.140625
+      m_HorizontalBearingY: 24.75
+      m_HorizontalAdvance: 18.84375
+    m_GlyphRect:
+      m_X: 40
+      m_Y: 1
+      m_Width: 19
+      m_Height: 26
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 30
+    m_Metrics:
+      m_Width: 14.0625
+      m_Height: 24.625
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 24.484375
+      m_HorizontalAdvance: 14.484375
+    m_GlyphRect:
+      m_X: 25
+      m_Y: 28
+      m_Width: 15
+      m_Height: 26
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 40
+    m_Metrics:
+      m_Width: 11.21875
+      m_Height: 15.28125
+      m_HorizontalBearingX: 0.28125
+      m_HorizontalBearingY: 15.140625
+      m_HorizontalAdvance: 12.03125
+    m_GlyphRect:
+      m_X: 41
+      m_Y: 46
+      m_Width: 12
+      m_Height: 17
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 45
+    m_Metrics:
+      m_Width: 13.234375
+      m_Height: 27.3125
+      m_HorizontalBearingX: -0.5
+      m_HorizontalBearingY: 27
+      m_HorizontalAdvance: 12.875
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 29
+      m_Width: 14
+      m_Height: 28
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 49
+    m_Metrics:
+      m_Width: 7.1875
+      m_Height: 27.359375
+      m_HorizontalBearingX: -0.5
+      m_HorizontalBearingY: 26.796875
+      m_HorizontalAdvance: 6.546875
+    m_GlyphRect:
+      m_X: 16
+      m_Y: 29
+      m_Width: 8
+      m_Height: 28
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 52
+    m_Metrics:
+      m_Width: 13.171875
+      m_Height: 15.28125
+      m_HorizontalBearingX: 0.21875
+      m_HorizontalBearingY: 15.140625
+      m_HorizontalAdvance: 13.78125
+    m_GlyphRect:
+      m_X: 41
+      m_Y: 28
+      m_Width: 14
+      m_Height: 17
+    m_Scale: 1
+    m_AtlasIndex: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 32
+    m_GlyphIndex: 1
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 50
+    m_GlyphIndex: 30
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 68
+    m_GlyphIndex: 5
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 83
+    m_GlyphIndex: 20
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 84
+    m_GlyphIndex: 21
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 99
+    m_GlyphIndex: 40
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 104
+    m_GlyphIndex: 45
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 108
+    m_GlyphIndex: 49
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 111
+    m_GlyphIndex: 52
+    m_Scale: 1
+  m_AtlasTextures:
+  - {fileID: -8035728087000471575}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_UsedGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 19
+    m_Height: 28
+  - m_X: 19
+    m_Y: 0
+    m_Width: 20
+    m_Height: 27
+  - m_X: 39
+    m_Y: 0
+    m_Width: 20
+    m_Height: 27
+  - m_X: 0
+    m_Y: 28
+    m_Width: 15
+    m_Height: 29
+  - m_X: 15
+    m_Y: 28
+    m_Width: 9
+    m_Height: 29
+  - m_X: 24
+    m_Y: 27
+    m_Width: 16
+    m_Height: 27
+  - m_X: 40
+    m_Y: 27
+    m_Width: 15
+    m_Height: 18
+  - m_X: 40
+    m_Y: 45
+    m_Width: 13
+    m_Height: 18
+  m_FreeGlyphRects:
+  - m_X: 59
+    m_Y: 0
+    m_Width: 4
+    m_Height: 63
+  - m_X: 19
+    m_Y: 27
+    m_Width: 5
+    m_Height: 1
+  - m_X: 55
+    m_Y: 27
+    m_Width: 8
+    m_Height: 36
+  - m_X: 0
+    m_Y: 57
+    m_Width: 40
+    m_Height: 6
+  - m_X: 24
+    m_Y: 54
+    m_Width: 16
+    m_Height: 9
+  - m_X: 53
+    m_Y: 45
+    m_Width: 10
+    m_Height: 18
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 64
+  m_AtlasHeight: 64
+  m_AtlasPadding: 0
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
+  m_FallbackFontAssetTable: []
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: 635e9a1bc80706f428edec027bc155b5
+    pointSizeSamplingMode: 0
+    pointSize: 36
+    padding: 0
+    packingMode: 4
+    atlasWidth: 64
+    atlasHeight: 64
+    characterSetSelectionMode: 7
+    characterSequence: ' DSTchlo2'
+    referencedFontAssetGUID: 94a8e8988d0edfd41bf8e74b85e49ce1
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 1
+  italicStyle: 35
+  tabSize: 10

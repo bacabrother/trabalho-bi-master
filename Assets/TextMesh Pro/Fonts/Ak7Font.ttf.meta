@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: fb7e9809ae179cf49a4987f6dc0a74e0
+timeCreated: 1482082567
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Komika Axis
+  fontNames:
+  - Komika Axis
+  - Arial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 712964e7626d4db489a9688ece9ba3f7, type: 3}
+  - {fileID: 12800000, guid: 0c35bc1f17cb6ed4cb621b5c906d76ba, type: 3}
+  customCharacters: "QWERTYUIOPASDFGHJKL\xC7ZXCVBNMqwertyuiopasdfghjkl\xE7zxcvbnm\xEA\u8D3C
+    \u3002\u4E2D\u56FD\u6587"
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
