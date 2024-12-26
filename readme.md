@@ -1,7 +1,7 @@
 # OTIMIZADOR DE CRONOGRAMA DE POÇOS
 
 #### Aluno: [Rômulo Luiz Pereira Ribeiro](https://github.com/bacabrother/)
-#### Orientadora: [Nome Sobrenome](https://github.com/link_do_github).
+#### Orientadora: [Carolina Abreu](https://github.com/acarolina1612).
 
 ---
 
